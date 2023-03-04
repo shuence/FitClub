@@ -19,45 +19,45 @@ const Contact = () => {
         }
 
   return (
-  <div class="container">
-    <div class="screen">
-      <div class="screen-header">
-        <div class="screen-header-left">
-          <div class="screen-header-button close"></div>
-          <div class="screen-header-button maximize"></div>
-          <div class="screen-header-button minimize"></div>
+  <div className="container">
+    <div className="screen">
+      <div className="screen-header">
+        <div className="screen-header-left">
+          <div className="screen-header-button close"></div>
+          <div className="screen-header-button maximize"></div>
+          <div className="screen-header-button minimize"></div>
         </div>
-        <div class="screen-header-right">
-          <div class="screen-header-ellipsis"></div>
-          <div class="screen-header-ellipsis"></div>
-          <div class="screen-header-ellipsis"></div>
+        <div className="screen-header-right">
+          <div className="screen-header-ellipsis"></div>
+          <div className="screen-header-ellipsis"></div>
+          <div className="screen-header-ellipsis"></div>
         </div>
       </div>
-      <div class="screen-body">
-        <div class="screen-body-item left">
-          <div class="app-title">
+      <div className="screen-body">
+        <div className="screen-body-item left">
+          <div className="app-title">
             <span>CONTACT</span>
             <span>US</span>
           </div>
-          <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+          <div className="app-contact">CONTACT INFO : +62 81 314 928 595</div>
         </div>
-        <div class="screen-body-item">
-          <div class="app-form">
-            <div class="app-form-group">
-              <input class="app-form-control" autoComplete='true' placeholder="NAME" id='name' />
+        <div className="screen-body-item">
+          <div className="app-form">
+            <div className="app-form-group">
+              <input className="app-form-control" autoComplete='true' placeholder="NAME" id='name' />
             </div>
-            <div class="app-form-group">
-              <input class="app-form-control" autoComplete='on' placeholder="EMAIL" id='email'/>
+            <div className="app-form-group">
+              <input className="app-form-control" autoComplete='on' placeholder="EMAIL" id='email'/>
             </div>
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="CONTACT NO" id='phone'/>
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="CONTACT NO" id='phone'/>
             </div>
-            <div class="app-form-group message">
-              <input class="app-form-control" placeholder="MESSAGE" id='message'/>
+            <div classNameName="app-form-group message">
+              <input className="app-form-control" placeholder="MESSAGE" id='message'/>
             </div>
-            <div class="app-form-group buttons">
-              <button class="app-form-button" data-bs-dismiss="modal">CANCEL</button>
-              <button class="app-form-button" onClick={whatsapp}>SEND</button>
+            <div className="app-form-group buttons">
+              <button className="app-form-button" data-bs-dismiss="modal">CANCEL</button>
+              <button className="app-form-button" onClick={whatsapp}>SEND</button>
             </div>
           </div>
         </div>

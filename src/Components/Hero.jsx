@@ -5,7 +5,6 @@ import hero_image from "../assets/hero_image.png"
 import hero_back from "../assets/hero_image_back.png"
 import heart from "../assets/heart.png"
 import calories from "../assets/calories.png"
-import Contact from '../Join/Join/Contact'
 
 const Hero = () => {
   return (
@@ -54,7 +53,7 @@ const Hero = () => {
         </div>
     </div>
         <div className="right-h">
-          <button className="btn" onClick={<Contact/>}>Join Now</button>
+          <button className="btn">Join Now</button>
           
           <div className="heart-rate">
             <img src={heart} alt="Heart"/>
