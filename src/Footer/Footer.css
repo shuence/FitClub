@@ -55,4 +55,10 @@ li{
     padding: 0.5rem;
 }
 
+.box>img:hover{
+    cursor: pointer;
+}
+
+
+
   

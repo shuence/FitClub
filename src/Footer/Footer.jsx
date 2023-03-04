@@ -5,6 +5,7 @@ import wp from "../assets/whatsapp-logo.jpg"
 const Footer = () => {
   return (
     <>
+    <div className="Footer-container">
     <section className="footer">
         <div className="box-container">
           <div className="box">
@@ -38,10 +39,10 @@ const Footer = () => {
                 <i className="fab fa-google">Google Maps</i></a>
                </div>
             </div>
-
-        </div>
+        </div> 
       </div>
     </section>
+    </div>
     </>
   );
 };

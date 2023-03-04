@@ -39,8 +39,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 15px;
 }
 
 .btn:hover{
   cursor: pointer;
+}
+
+.blur{
+  background: rgba(253,120,43,.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
 }
