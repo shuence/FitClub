@@ -20,9 +20,8 @@ const Footer = () => {
                 <a href="tel:+91 8888817886">+91 4363557535 </a></i>  
                 <br></br>
                 <i className="fa">
-                <a href="mailto:info.adventuresquad@gmail.com">info@shubham.com</a></i>
+                <a href="mailto:info.shubham@gmail.com">info@shubham.com</a></i>
             </div>
-        
         <div className="box">
             <h3>Follow us</h3>
             <link
