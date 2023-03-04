@@ -30,7 +30,8 @@
 }
 
 .btn{
-  background-color: white;
+  background-color: black;
+  color: white;
   padding: 0.5rem;
   font-weight: bold;
   border: 4px solid transparent;

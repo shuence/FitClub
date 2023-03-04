@@ -108,7 +108,7 @@
 .right-h>.btn{
     position: absolute;
     right: 3rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .heart-rate{

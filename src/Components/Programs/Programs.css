@@ -43,6 +43,12 @@
     font-size: 0.9rem;
     line-height: 25px;
   }
+
+  .category:hover{
+        cursor: pointer;
+        background: var(--planCard);
+  }
+
   .join-now{
       display: flex;
       align-items: center;
