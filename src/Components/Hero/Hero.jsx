@@ -7,6 +7,7 @@ import calories from "../../assets/calories.png"
 import { motion } from "framer-motion"
 import NumberCounter from "number-counter";
 import Header from '../Header/Header'
+import { Link } from "react-scroll";
 
 const Hero = () => {
   const transition = { duration: 3, type: "spring" };
@@ -74,9 +75,13 @@ const Hero = () => {
 
       {/* Right Side */}
       <div className="right-h">
-        <button className="btn">
-          Join Now
-          </button>
+      <Link className="btn"
+              to="contact"
+              spy={true}
+              smooth={true}
+            >
+              Join now
+            </Link>
 
         {/* heart rate */}
         <motion.div
