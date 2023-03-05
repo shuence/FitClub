@@ -12,9 +12,24 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Resources
 
+<<<<<<< HEAD
  - [React Docs](https://beta.reactjs.org/)
  - [Stackoverflow](https://stackoverflow.com/)
  
+=======
+
+
+Builds the app for production to the `build` folder.\
+
+
+https://user-images.githubusercontent.com/65482186/222948714-94b3740e-4721-452c-b26b-7dea22cd54fc.mp4
+
+
+It correctly bundles 
+
+React in production mode and optimizes the build for the best performance.
+
+>>>>>>> a5cb94654fa1cc819f66e1bc194ce5b50eed2524
 
 ## Authors
 
