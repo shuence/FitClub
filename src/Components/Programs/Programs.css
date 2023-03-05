@@ -59,7 +59,7 @@
       width: 1rem
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .programs-header{
       flex-direction: column;
       gap: 1rem;
@@ -68,8 +68,7 @@
       justify-content: center;
       margin-top: 2rem;
     }
-    .prgoram-categories{
+    .programs-categories{
       flex-direction: column;
     }
   }
-  

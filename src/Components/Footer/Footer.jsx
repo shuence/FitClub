@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import wp from "../assets/whatsapp-logo.jpg"
+import wp from "../../assets/whatsapp-logo.jpg"
 
 const Footer = () => {
   return (
     <>
-    <div className="Footer-container">
+    <div className="Footer-container" id="about">
     <section className="footer">
         <div className="box-container">
           <div className="box">
@@ -41,6 +41,9 @@ const Footer = () => {
         </div> 
       </div>
     </section>
+    <div className="credits">
+        <p>© 2023 Shuence. All Rights Reserved.</p>
+      </div>
     </div>
     </>
   );

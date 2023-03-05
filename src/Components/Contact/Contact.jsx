@@ -7,19 +7,23 @@ const Contact = () => {
         var name = document.getElementById("name").value;
         var email = document.getElementById("email").value;
         var phone = document.getElementById("phone").value;
+        var age = document.getElementById("age").value;
+        var plan = document.getElementById("plan").value;
         var message = document.getElementById("message").value;
          
         var url = "https://wa.me/+918766539293?text="
         +"*Name :* "+name+"%0a"
         +"*Email :* "+email+"%0a"
         +"*Contact No :* "+phone+"%0a"
+        +"*Age :* "+age+"%0a"
+        +"*Plan :* "+plan+"%0a"
         +"*Message :* "+message;
          
         window.open(url,'_blank').focus();
         }
 
   return (
-  <div className="container">
+  <div className="container" id='contact'>
     <div className="screen">
       <div className="screen-header">
         <div className="screen-header-left">
@@ -51,6 +55,12 @@ const Contact = () => {
             </div>
             <div className="app-form-group">
               <input className="app-form-control" placeholder="CONTACT NO" id='phone'/>
+            </div>
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="Age" id='age'/>
+            </div>
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="Plan" id='plan'/>
             </div>
             <div classNameName="app-form-group message">
               <input className="app-form-control" placeholder="MESSAGE" id='message'/>

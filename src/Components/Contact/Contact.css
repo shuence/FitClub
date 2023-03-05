@@ -208,6 +208,10 @@
     outline: none;
   }
   
+  .app-form-group.buttons {
+    margin-top: 30px;
+  }
+  
   .app-form-button:hover {
     color: #b9134f;
   }
@@ -217,7 +221,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    color: #ffa4bd;
+    color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     font-weight: normal;
@@ -232,7 +236,12 @@
   }
   
 
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 768px) {
+    .container{
+      width: 100%;
+      padding: 10px;
+    }
+
     .screen-body {
       flex-direction: column;
     }
@@ -247,16 +256,30 @@
   
     .app-title span {
       margin-right: 12px;
+
     }
   
     .app-title:after {
       display: none;
     }
+
+    .app-form-group {
+      width: 100%;
+    }
+
+    .app-form-group.message {
+      margin-top: 20px;
+    } 
+
+    .app-form-group.buttons {
+      margin-top: 30px;
+    }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .screen-body {
       padding: 40px;
+
     }
   
     .screen-body-item {

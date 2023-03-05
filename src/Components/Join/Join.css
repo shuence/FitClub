@@ -11,8 +11,6 @@
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
-    display: flex;
-    flex-direction: column;
 }
 .left-j>hr{
     position: absolute;
@@ -27,18 +25,8 @@
 }
 .right-j{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-}
-
-.centre-j{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 2rem;
-    background-color: var(--darkgray);
-    border-radius: 1rem;
 }
 
 .email-container{
@@ -46,6 +34,7 @@
     gap: 3rem;
     background-color: gray;
     padding: 1rem 2rem;
+    border-radius: 10px;
 }
 .email-container>input{
     background-color: transparent;

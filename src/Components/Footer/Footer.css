@@ -11,7 +11,7 @@ section{
   }
 
   .footer .box-container .box{
-    padding:0.5rem 0;
+    padding:1rem;
     flex:auto;
     height: 380px;
     width: 250px;
@@ -57,6 +57,37 @@ li{
 
 .box>img:hover{
     cursor: pointer;
+}
+
+.credits{
+    text-align: center;
+   
+}
+
+@media screen and ( max-width: 768px){
+    .footer .box-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .footer .box-container .box:nth-child(1){
+      padding: 0px;
+        height: 200px;
+    }
+    .footer .box-container .box:nth-child(2){
+        height: 200px;
+        margin-top: 5rem;
+
+    }
+    .footer .box-container .box:nth-child(3){
+        height: 200px;
+        margin-top: 5rem;
+    }
+    .credits{
+        margin-top: 7rem;
+        padding-top: 7rem;
+        color: white;
+        font-size: 15px;
+    }
 }
 
 
