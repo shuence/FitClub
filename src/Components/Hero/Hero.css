@@ -114,7 +114,7 @@
     background-color: var(--darkGrey);
     width: fit-content;
     padding: 1rem;
-    align-items: start;
+    align-items: flex-start;
     border-radius: 5px;
     position: absolute;
     right: 4rem;
