@@ -17,7 +17,10 @@
     "react-onclickoutside": "^6.12.2",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "minimatch": "^3.0.5",
+    "nth-check": "^2.0.1",
+    "glob-parent": "^5.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
