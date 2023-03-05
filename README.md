@@ -21,8 +21,18 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
+
+
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+
+
+https://user-images.githubusercontent.com/65482186/222948714-94b3740e-4721-452c-b26b-7dea22cd54fc.mp4
+
+
+It correctly bundles 
+
+React in production mode and optimizes the build for the best performance.
+
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
