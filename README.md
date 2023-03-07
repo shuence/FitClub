@@ -7,8 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Resources
 
-<<<<<<< HEAD
-
 - [React Docs](https://beta.reactjs.org/)
 - [Stackoverflow](https://stackoverflow.com/)
 
