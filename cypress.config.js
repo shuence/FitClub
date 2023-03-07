@@ -1,1 +1,3 @@
-export const projectId = "4h98xq";
+module.exports = {
+    projectId: "4h98xq",
+  }
