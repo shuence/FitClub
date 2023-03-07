@@ -5,7 +5,6 @@
 /.VSCodeCounter
 /.pnp
 .pnp.js
-cypress.config.js
 
 
 # testing
