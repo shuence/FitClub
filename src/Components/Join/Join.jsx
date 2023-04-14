@@ -29,7 +29,7 @@ const Join = () => {
               <div><span>your body</span><span className='stroke-text'>with us?</span></div>
           </div>
           <div className="right-j">
-              <form className="email-container" ref={form} onSubmit={handleJoin}>
+              <form className="email-container" netlify ref={form} onSubmit={handleJoin}>
                   <input netlify type="email" name='user_email' placeholder='Enter Email Address' />
                   <button type='submit' className="btn btn-j">Join now</button>
               </form>
