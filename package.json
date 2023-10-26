@@ -7,7 +7,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "cypress": "^12.7.0",
+    "cypress": "^13.3.3",
     "emailjs": "^4.0.1",
     "framer-motion": "^10.0.1",
     "motion": "^10.15.5",
