@@ -32,7 +32,7 @@ To Setup this project run
 
 ```
 
-git clone <https://github.com/shuence/FitClub>
+git clone https://github.com/shuence/FitClub
 cd Fitclub
 yarn install
 yarn start
